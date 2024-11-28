@@ -1,0 +1,24 @@
+:root {
+    --primary-red: #FF3131;
+    --primary-pink: #F7A3B1;
+    --secondary-pink: #FFE6E6;
+    --white: #FFFFFF;
+    --dark-color: #2C3E50;
+  }
+  
+  .menopause-tips {
+      background-color: var(--secondary-pink);
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      text-align: center;
+      margin-top: 20px;
+  }
+  
+  .menopause-tips h3 {
+      color: var(--dark-color);
+      font-size: 14px;
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+  }
+  

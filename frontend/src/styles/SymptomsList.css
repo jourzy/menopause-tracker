@@ -1,0 +1,5 @@
+/* Turns other symptoms in the list grey when 'no symptoms' selected so user can see they have been disabled*/
+.disabled-label {
+    color: grey;
+  }
+  

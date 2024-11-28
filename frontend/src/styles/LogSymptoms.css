@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --primary-red: #FF3131;
+  --primary-pink: #F7A3B1;
+  --secondary-pink: #FFE6E6;
+  --white: #FFFFFF;
+  --dark-color: #2C3E50;
+}
+
+.log-symptoms-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.log-symptoms {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--secondary-pink);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.log-symptoms-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.log-symptoms-header h1 {
+  color: var(--primary-red);
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.log-symptoms-header p {
+  color: var(--dark-color);
+}
+
+.log-symptoms-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.log-symptoms-footer button {
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.log-symptoms-footer button[type="submit"] {
+  background-color: var(--primary-red);
+  color: var(--white);
+}
+
+.log-symptoms-footer button[type="submit"]:hover,
+.log-symptoms-footer button[type="submit"]:focus {
+  background-color: var(--primary-pink);
+}
+
+.log-symptoms-footer button[type="button"] {
+  background-color: var(--secondary-pink);
+  color: var(--dark-color);
+}
+
+.log-symptoms-footer button[type="button"]:hover,
+.log-symptoms-footer button[type="button"]:focus {
+  background-color: var(--secondary-pink);
+}
+
+

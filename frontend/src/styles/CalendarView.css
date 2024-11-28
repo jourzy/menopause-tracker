@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --primary-red: #FF3131;
+  --primary-pink: #F7A3B1;
+  --secondary-pink: #FFE6E6;
+  --white: #FFFFFF;
+  --dark-color: #2C3E50;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.react-calendar {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: var(--white);
+  padding: 15px;
+}
+
+.react-calendar__navigation button {
+  color: var(--dark-color);
+  font-weight: bold;
+}
+
+.react-calendar__month-view__days__day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-calendar__tile {
+  border-radius: 50%;
+  border: 2px solid var(--primary-pink);
+  background-color: var(--white);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: var(--secondary-pink);
+}
+
+.react-calendar__tile--now {
+  background: var(--primary-pink);
+  color: var(--white);
+  font-weight: bold;
+}
+
+.react-calendar__tile--active {
+  background: var(--secondary-pink);
+  color: var(--dark-color);
+  font-weight: bold;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: var(--dark-color);
+}
+
+.react-calendar__tile--active:hover,
+.react-calendar__tile--active:focus {
+  background: var(--secondary-pink);
+  color: var(--dark-color);
+}
+
+.calendar-container {
+  margin-right: 20px;
+  color: var(--dark-color);
+}
+
+.list-container {
+  margin-left: 20px;
+  overflow: auto;
+  max-height: 330px;
+  scrollbar-color: var(--primary-pink) var(--secondary-pink);
+  scrollbar-width: thin;
+}
+
+.list-container h3 {
+  color: var(--dark-color);
+  font-weight: bolder;
+  margin-right: 10px;
+}
+
+
+
+.list-container .list-group-item {
+  border: 1px solid var(--primary-pink);
+  border-radius: 10px;
+  background-color: var(--secondary-pink);
+  margin: 5px;
+  font-weight: bold;
+  color: var(--dark-color);
+  max-width: 200px;
+}

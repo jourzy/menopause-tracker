@@ -1,0 +1,50 @@
+/* This file contains the styles for the LandingPage component */
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pause-logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+  }
+  
+  .app-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #d9534f;
+  }
+
+  .welcome {
+    font-weight: bold;
+  }
+  
+  .app-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--dark-color);
+  }
+  
+  .primary-button:hover {
+    background-color: var(--primary-pink);
+    color: #FFFF;
+}
+
+.secondary-button {
+  background-color: #FFFF;
+  color: var(--dark-color);
+  font-weight: bolder;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.secondary-button:hover {
+  background-color: var(--dark-color);
+  color: #FFFF;
+}

@@ -1,0 +1,39 @@
+:root {
+    --primary-red: #FF3131;
+    --primary-pink: #F7A3B1;
+    --secondary-pink: #FFE6E6;
+    --dark-color: #2C3E50;
+}
+
+.log-button, .edit-button, .delete-button {
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.log-button, .edit-button {
+    background-color: var(--primary-red);
+    color: #FFFF;
+}
+
+.log-button:hover, .edit-button:hover {
+    background-color: var(--primary-pink);
+    color: #FFFF;
+}
+
+.delete-button {
+    background-color: #FFFF;
+    color: var(--dark-color);
+}
+
+.delete-button:hover {
+    background-color: var(--dark-color);
+    color: #FFFF;
+}
+
+
+  

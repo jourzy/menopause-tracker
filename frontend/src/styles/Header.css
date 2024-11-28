@@ -1,0 +1,76 @@
+:root {
+    --primary-red: #FF3131;
+    --primary-pink: #F7A3B1;
+    --secondary-pink: #FFE6E6;
+    --white: #FFFFFF;
+    --dark-color: #2C3E50;
+}
+
+nav {
+    height: 80px;
+    background-color: var(--primary-pink);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+h1 {
+    color: var(--primary-red);
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+h3 {
+    color: var(--secondary-pink);
+    font-size: 18px;
+    margin: 0;
+    text-align: right;
+}
+
+.div-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 550px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.header-right h3 {
+    margin: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.primary-button {
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;   
+    background-color: var(--primary-red);
+    color: #FFFF;
+}
+
+.primary-button:hover {
+    background-color: var(--primary-pink);
+    color: #FFFF;
+}
